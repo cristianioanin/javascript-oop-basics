@@ -40,7 +40,9 @@ Student.prototype.hasPassedStandard = function() {
   return this.grade >= 5;
 }
 
-const studentWeb = new Student('John', 'Doe', 6);
+// If applied, this commit will...
+
+const studentWeb = new Student('John', 'Doe', 10);
 studentWeb.hasPassedStandard = hasPassedGreaterThan7;
 const studentPython = new Student('Snake', 'Eyes', 6);
 
